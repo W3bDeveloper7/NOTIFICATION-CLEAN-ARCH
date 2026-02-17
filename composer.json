@@ -1,0 +1,28 @@
+{
+  "name": "edge/notification-clean-arch",
+  "description": "Clean-architecture reference implementation (pseudocode-quality, executable stubs) for edge-backend Modules/Notification.",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Edge\\NotificationCleanArch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Edge\\NotificationCleanArch\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+
